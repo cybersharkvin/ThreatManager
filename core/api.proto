@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package mcp;
+
+// Service definitions for session management, ingest, analysis, and trace logging
+
+service SessionService {
+    // TODO: Define RPCs for session creation and management
+}
+
+service IngestService {
+    // TODO: Define RPCs for artifact ingestion
+}
+
+service AnalysisService {
+    // TODO: Define RPCs for static/dep scanning and threat modeling
+}
+
+service TraceLogService {
+    // TODO: Define RPCs for retrieving audit trail
+}
+
