@@ -1,0 +1,35 @@
+# Go
+/bin/
+/pkg/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+*.test
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+.env
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+*.tar
+
+# Kubernetes
+*.yaml
+*.yml
+!deploy/**
+!k8s/**
+
+# General
+*.log
+*.tmp
+
